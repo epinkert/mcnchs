@@ -1,0 +1,304 @@
+/* Colors:
+red: #bd3720
+white: #ffffff*/
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+	font-family:Lato, serif;
+}
+
+h1{
+	font-family: Josefin Sans, serif;
+}
+
+h2{
+	font-family: Josefin Sans, serif;
+}
+
+.hfont strong{
+	font-family: Josefin Sans, serif;
+	font-size: 18px;
+}
+
+.hfont{
+	font-family: Josefin Sans, serif;
+	font-size: 18px;
+}
+
+
+
+/*general styling*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {	
+ /* Margin bottom by footer height */
+ margin-bottom: 60px;
+	
+}
+
+.centertext{
+	text-align:center;
+}
+
+/*thumbnail styling*/
+a.thumbnail:link {
+	text-decoration:none;
+	border-color:#eee;
+}
+
+/* well styles*/
+.well {
+	background-color:#fdfdfd;
+}
+
+/*navbar styles*/
+.navbar {
+	margin: 0px;
+}
+
+/*main images style*/
+.mainimg{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+/*footer style*/
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+.footer {
+
+ 	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	/* Set the fixed height of the footer here */
+  	height: 60px;
+  	background-color:#fafafa;
+	text-align: right;
+	margin-top:20px;
+}
+
+/*intro*/
+
+#fronttitle{
+	margin-top:20px;
+}
+.intro {
+	padding-bottom:50px;
+	border-bottom:solid;
+	border-width:1px;
+	border-color:gray;
+	margin-bottom:25px;
+}
+
+.intro{
+	font-size:20px;
+}
+
+.frontpad {
+	padding-bottom:25px;
+}
+
+.justify{
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/*for putting lines under words*/
+.lineunder {
+	padding-bottom:50px;
+	border-bottom:solid;
+	border-width:1px;
+	border-color:gray;
+	margin-bottom:25px;
+}
+
+/*recipe front text*/
+.recipefront{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+/*btn styling*/
+
+/*buttons that are just outlined*/
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+.redbtn.outline {
+	border: 2px solid #bd3720;
+	color: #bd3720;
+}
+
+.redbtn.outline:hover, .redbtn.outline:focus, .redbtn.outline:active, .redbtn.outline.active, .open > .dropdown-toggle.redbtn {
+	color: #bd3720;
+	border-color: #bd3720;
+}
+.redbtn.outline:active, .redbtn.outline.active {
+	border-color: #bd3720;
+	color: #bd3720;
+	box-shadow: none;
+}
+
+/*end of outline buttons*/
+/* This is for if I want to change red buttons back to solid
+.btn.redbtn {
+	background-color: #bd3720;
+	color:white;
+	border:none;
+	margin:1em;
+}
+
+.btn.redbtn.active {
+	background-color: #9c2713;
+}
+
+.btn.redbtn.a:hover {
+	background-color: #9c2713;
+}
+
+.btn.redbtn.active, .btn.redbtn:active {
+    background-color: #9c2713;
+	color:#ffffff;
+}
+*/
+#btnlesspad {
+	margin-top:0;
+	margin-bottom:15px;
+
+}
+
+#makebtn {
+	margin-left:0;
+	margin-bottom:40px;
+}
+
+.trashbtn{
+	margin-top:5px;
+}
+
+#seeallbtn{
+	margin-bottom:20px;
+}
+
+#submitbtn{
+	margin:10px;
+	margin-bottom:30px;
+}
+
+/*log in / sign up styles*/
+
+.loginwell{
+	margin-top:40px;
+	padding-bottom:40px;
+}
+
+#loginbtn {
+	margin-left:0;
+}
+
+#signuplink{
+	float:right;
+	margin-right:10px;
+}
+
+/*form styles*/
+.noresize{
+	resize:none;
+}
+
+.vresize {
+	    resize: vertical;
+	    overflow: auto;	
+}
+
+#maketitle{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* countdown styles*/
+#max35_feedback{
+	float:right;
+	color:#777;
+}
+
+#max125_feedback{
+	float:right;
+	color:#777;
+}
+
+/*single.php styles*/
+#singletitle{
+	padding-bottom:5px;
+	margin-bottom:1px;
+	padding-left:0;
+	float:left;
+}
+
+#postinfo{
+	padding-left:0;
+}
+
+#singleimg{
+	padding-left:0;
+}
+
+#postdescription {
+	font-size:17px;
+	padding-left:0;
+}
+
+#postprepcook{
+	margin-top:10px;
+	font-size:15px;
+	padding-left:0;
+}
+
+#singlemaincontent {
+	padding-left:0;
+	font-size:16px;
+}
+
+#bookmarkbtn {
+	padding-left:0;
+	margin-top:10px;
+}
+
+.recipewell{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+#directionstitle{
+	margin-top:20px;
+}
+
+/*styles for bookmark error*/
+
+a.redlink{
+	color:#d9534f;
+	text-decoration:none;
+
+}
+
+#bookmarkerror{
+	margin-top:20px;
+}

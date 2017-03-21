@@ -1,0 +1,26 @@
+NOTES
+
+*Most of the same stuff on the last one. I'll try to keep these notes shorter, as I made 
+lots of notes and some of the changes you have done before. I also made a lot of comments. 
+
+*IMPORTANT: All the recipes diplayed need to stay in their rows of three. That might be
+harder to do but it is pretty nessecary. 
+
+*For what gets displayed in the features, have a featured column in the SQL, automatically
+set to 0, so when it is set to 1 it is displayed. 
+
+*The sign out buttons don't work. 
+
+*If you can't do the bookmarks, that's fine. Let me know so I can take it away though. Also,
+there are two of those buttons, one with javascript. I explained that more in comments. 
+
+*The filter doesn't work. 
+
+*I recommend doing the recipes (single.php) by id number. 
+
+*I think that is it. There is stuff like scripts being in functions but you already knew
+that.
+
+*If there's something you can't do let me know so I can mess with the front end. Thanks 
+so much for doing this!!
+
